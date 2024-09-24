@@ -46,16 +46,17 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "dirtyRev": "274a602371ac99dc76a5739e5107d17804b4538e-dirty",
-        "dirtyShortRev": "274a602-dirty",
-        "lastModified": 1725084439,
-        "narHash": "sha256-6avi3S9TpsLPZKxF0TjQ5vcnedmk3YSw4FHzE0DXqio=",
-        "type": "git",
-        "url": "file:///Volumes/My%20Shared%20Files/nixpkgs"
+        "lastModified": 1727187320,
+        "narHash": "sha256-2sm6Yyjv8C5KcsE//0ZMGQhZ/d47st5Gt/uI+cuYkkE=",
+        "owner": "nico-swan-com",
+        "repo": "nixpkgs",
+        "rev": "9bbd2be6dc5d505238e3889b9237ca7ea1d1a604",
+        "type": "github"
       },
       "original": {
-        "type": "git",
-        "url": "file:///Volumes/My%20Shared%20Files/nixpkgs"
+        "owner": "nico-swan-com",
+        "repo": "nixpkgs",
+        "type": "github"
       }
     },
     "nix-darwin": {
@@ -134,11 +135,11 @@
     },
     "nixpkgs_3": {
       "locked": {
-        "lastModified": 1727102360,
-        "narHash": "sha256-Dv75L8YCT8Gg+uOxSvOeiZj6Y3mPfj3050ZLTsLL1eo=",
+        "lastModified": 1727184566,
+        "narHash": "sha256-mgdK8BcFsLSNhe780+cHbEUbZ3OruLa1T/xgQlL4Aj4=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "d986d040d3f72cdae110772cdeb24b8709ba3a13",
+        "rev": "48c3030083c46042584531bc9d931020f1975677",
         "type": "github"
       },
       "original": {

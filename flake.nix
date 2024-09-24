@@ -3,7 +3,7 @@
 
   inputs = {
 
-    nicoswan.url = "git+file:///Volumes/My%20Shared%20Files/nixpkgs";
+    nicoswan.url = "github:nico-swan-com/nixpkgs";
 
     # NixOS
     nixpkgs.url = "github:NixOS/nixpkgs/release-24.05";
@@ -39,7 +39,7 @@
       };
     in
     {
-      darwinConfigurations.default = mkSystem "default" {
+      darwinConfigurations.darwin = mkSystem "darwin" {
         system = "aarch64-darwin"; 
         username = "nicoswan";
         fullname = "Nico Swan";
@@ -47,7 +47,17 @@
         locale = "en_ZA.UTF-8";
         timezone = "Africa/Johannesburg";
         darwin = true;
-      }; 
+      };
+
+      nixosConfigurations.nixos = mkSystem "nixos" {
+        system = "x86_64-linux"; 
+        username = "nicoswan";
+        fullname = "Nico Swan";
+        email = "hi@nicoswan.com";
+        locale = "en_ZA.UTF-8";
+        timezone = "Africa/Johannesburg";
+        darwin = false;
+      };  
     };
           
 }
